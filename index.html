@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="carousel">
+      <button class="carousel__button carousel__button--left is-hidden">
+        <img src="img/linker-chevron.svg" alt="" />
+      </button>
+      <div class="carousel__track-container">
+        <ul class="carousel__track">
+          <li class="carousel__slide current-slide">
+            <a href="https://www.wrkbeat.com/"
+              ><img
+                class="carousel__image"
+                src="https://picsum.photos/id/106/1800/300"
+                alt=""
+            /></a>
+          </li>
+          <li class="carousel__slide">
+            <a href="https://www.wrkbeat.com/"
+              ><img
+                class="carousel__image"
+                src="https://picsum.photos/id/1002/1800/300"
+                alt=""
+            /></a>
+          </li>
+          <li class="carousel__slide">
+            <a href="https://www.wrkbeat.com/"
+              ><img
+                class="carousel__image"
+                src="https://picsum.photos/id/1000/1800/300"
+                alt=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <button class="carousel__button carousel__button--right">
+        <img src="img/pfeil.svg" alt="" />
+      </button>
+      <div class="carousel__nav">
+        <button class="carousel__indicator current-slide"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+      </div>
+    </div>
+    <script src="js/carousel.js"></script>
+  </body>
+</html>
